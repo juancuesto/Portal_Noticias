@@ -24,6 +24,8 @@ public class Articulo {
     @JoinTable(name = "articulo_usuario",
     joinColumns = @JoinColumn(name = "id_articulo"),
     inverseJoinColumns = @JoinColumn(name = "id_usuario"))
+
+
     private List<Usuario> usuarios;
 
     public Articulo() {
