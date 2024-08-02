@@ -13,7 +13,7 @@ public class ArticuloService {
     private ArticuloRepository articuloRepository;
 
     /**
-     * Guardar un articulo nueco en base de datos
+     * Guardar un articulo nuevo en base de datos
      * @param articulo el articulo a guardar
      * @return el articulo guardado
      */
